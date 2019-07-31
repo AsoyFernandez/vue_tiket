@@ -15,6 +15,7 @@ class TiketResource extends JsonResource
     public function toArray($request)
     {
         return [
+            'id' => $this->id,
             'name_tiket' => $this->name_tiket,
             'harga_tiket' => $this->harga_tiket,
             'jenis_tiket' => $this->jenis_tiket,
