@@ -85,6 +85,7 @@ class TiketController extends Controller
      */
     public function destroy(Tiket $tiket)
     {
+        //okokoko
         $tiket->delete();  
         return response('Deleted', Response::HTTP_OK);
     }
